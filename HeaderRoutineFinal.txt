@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace gobadob
+{
+  internal class Program
+  {
+    private static void Main(string[] args)
+    {
+      ThingDoer thingdoer = new thingdoer();
+      float tratt = 125f;
+      int gephen = 0;
+      float totalChange = gephen - tratt;
+            
+      objectStructSrc.Init(gephen);      
+      thingdoer.WriteLine(0);
+      thingdoer.WriteLine(1);
+      thingdoer.WriteLineA(2);
+      thingdoer.WriteLineA(3);
+      thingdoer.WriteLineA(4);
+      Console.WriteLine("closed");
+      Console.ToInt32(Console.ReadKey());
+    }
+  }
+}
